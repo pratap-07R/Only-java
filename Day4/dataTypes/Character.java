@@ -1,4 +1,4 @@
-// package Only-java.Day4.dataTypes;
+
 
 public class Character {
     public static void main(String[] args) {
@@ -22,6 +22,24 @@ public class Character {
          System.out.println("My Variable 2: " + myVar2);
          System.out.println(myVar2);
 
+
+         /*
+          STRING =>
+          the string data type is used to store a sequence of chracters (text). string string value must be srrounded with double qoutes "".
+          */
+
+          String hi = "hello pratap how are you";
+          System.out.println(hi);
+
+
+          //REAL LIFE EXAMPLE
+          int item = 50;
+          float costPerItem = 38.5f;
+          float totalcost = costPerItem*item;
+          char currency = '$';
+          System.out.println("Number of item = "+ item);
+          System.out.println("cost per item = "+costPerItem);
+          System.out.println("total cost = "+totalcost+currency);
 
 
     }
