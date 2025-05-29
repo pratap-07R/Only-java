@@ -22,5 +22,15 @@ public class typeCasting {
      int age = 22;
      double myAge = age;
      System.out.println(myAge);
+
+
+     //REAL LIFE EXAMPLE
+
+     int maxScore = 500;
+    
+     int userScore = 432;
+
+     float percentage = (float) userScore /maxScore *100.0f;
+     System.out.println(percentage);
     }
 }
