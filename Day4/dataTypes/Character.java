@@ -16,6 +16,10 @@ public class Character {
          // Alternatively if you are familiar with ASCII values you can use those to display cirtain characters 
          char myVar1 = 65;
          char myVar2 = 73;
+         System.out.println("My Grade: " + myGrade);
+         System.out.println("My Friend's Grade: " + myFriendGrade);
+         System.out.println("My Variable 1: " + myVar1);
+         System.out.println("My Variable 2: " + myVar2);
          System.out.println(myVar2);
 
 
