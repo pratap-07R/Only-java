@@ -20,7 +20,7 @@ public class recursion {
              very efficient and mathematically-elegant approach to programming.
      */
 
-    int n=0;
+    // int n=0;
     printNumb(0);
     }
 }
