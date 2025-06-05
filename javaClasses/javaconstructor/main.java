@@ -11,10 +11,16 @@ public class main {
     public static void main(String[] args) {
         main myObj = new main(); //create an object of class main(this will call constructor)
         System.out.println(myObj.x);
+
+
+        /*
+        constocter can also take parameter, which is used to initialize attributes 
+         */
     }
 
 }
 /*
+;
 Note=>  that the constructor name must match the class name, and it cannot have a return type (like void).
 
 Also note that the constructor is called when the object is created.
